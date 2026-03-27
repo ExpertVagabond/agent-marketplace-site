@@ -1,0 +1,25 @@
+{
+  "name": "agent-marketplace-site",
+  "version": "1.0.0",
+  "description": "The first agent-to-agent services marketplace — browse 908+ AI agent tools with USDC micropayments",
+  "private": true,
+  "scripts": {
+    "dev": "python3 -m http.server 8080",
+    "deploy": "wrangler pages deploy . --project-name=agent-marketplace"
+  },
+  "keywords": [
+    "agent-marketplace",
+    "a2a",
+    "x402",
+    "mcp",
+    "ai-agents",
+    "solana",
+    "usdc"
+  ],
+  "author": "Purple Squirrel Media <matthew@purplesquirrelmedia.io>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ExpertVagabond/agent-marketplace-site"
+  }
+}
